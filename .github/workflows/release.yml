@@ -11,19 +11,22 @@ permissions:
   contents: write
 
 jobs:
-  goreleaser:
+  DDOS-Tool-Build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        name: Checkout Repo
         with:
           fetch-depth: 0
       - run: git fetch --force --tags
       - uses: actions/setup-go@v4
+        name: Setup Go
         with:
           go-version: stable
       # More assembly might be required: Docker logins, GPG, etc.
       # It all depends on your needs.
       - uses: goreleaser/goreleaser-action@v5
+        name: Release
         with:
           # either 'goreleaser' (default) or 'goreleaser-pro':
           distribution: goreleaser
