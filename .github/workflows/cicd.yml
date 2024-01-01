@@ -1,0 +1,16 @@
+name: DDOS load testing tool
+run-name: DDOS tool build
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: Setup Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: '1.14.0'
+      - name: Run build
+        run: go build .
+
