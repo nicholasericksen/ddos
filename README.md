@@ -17,6 +17,9 @@ Administrator. It usually boils down to these three things:
 
 I accept no liability for your own actions. You have been warned.
 
+## Preview
+
+![](https://raw.githubusercontent.com/nicholasericksen/poc-videos/raw/d4e42fd9b4e1164ad77d6a0795bc8376ae262ac4/videos/DDOS_Example.mov)
 
 ## Usage
 Build the program locally with
