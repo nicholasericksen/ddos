@@ -29,7 +29,7 @@ Once the DDOS ends the client loads the page in Firefox.
 ## Usage
 Build the program locally with
 ```
-go build ddos.go
+go build -o ddos main.go
 ```
 
 Then run the program with 
