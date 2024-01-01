@@ -19,7 +19,7 @@ I accept no liability for your own actions. You have been warned.
 
 ## Preview
 
-![POC or GTFO](https://youtu.be/CCXORSlFLHQ)
+![POC or GTFO](https://github.com/nicholasericksen/poc-videos/blob/main/gifs/DDOS-Example-GIF.gif)
 
 ## Usage
 Build the program locally with
