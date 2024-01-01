@@ -18,6 +18,11 @@ Administrator. It usually boils down to these three things:
 I accept no liability for your own actions. You have been warned.
 
 ## Preview
+Here I setup a local server with a basic HTML page using `python -m http.server`.
+After starting the server I immediately trigger the DDOS using this tool.
+It issues 15k requests.
+As the requests are being sent the end client browser is denied access to the site.
+Once the DDOS ends the client loads the page in Firefox.
 
 ![POC or GTFO](https://github.com/nicholasericksen/poc-videos/blob/main/gifs/DDOS-Example-GIF.gif)
 
@@ -39,5 +44,5 @@ You can specify the quantity, logging mode for more details, and the url of the 
 * Currently this only supports making `GET` request to the specified URL.
 * Only supports HTTP based services
 * Limited statistical summary in the tool, although log analysis could be performed.
-
+* Technically not Ddos since there is no terraform component yet.
 See the issues for roadmap items and future improvements.
