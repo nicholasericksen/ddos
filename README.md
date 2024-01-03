@@ -46,3 +46,9 @@ You can specify the quantity, logging mode for more details, and the url of the 
 * Limited statistical summary in the tool, although log analysis could be performed.
 * Technically not Ddos since there is no terraform component yet.
 See the issues for roadmap items and future improvements.
+
+### Command Examples
+```
+git tag v0.2 HEAD -m "Release: v0.2"
+git push origin v0.2
+```
