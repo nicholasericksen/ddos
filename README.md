@@ -52,3 +52,14 @@ See the issues for roadmap items and future improvements.
 git tag v0.2 HEAD -m "Release: v0.2"
 git push origin v0.2
 ```
+
+## Contribution Flow
+Main branch is the release branch with tagged commits.
+Version branches should be created off of master.
+`vMajor.Minor` format naming convention.
+Create feature branches off these if needed,
+else treat each commit as a bullet of the release notes.
+Merge the version branch into main.
+Delete version branch.
+(Note: do this both remote and locally else there will be a conflict)
+Tag main commit with release in `vMajor.Minor` format.
