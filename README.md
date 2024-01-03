@@ -1,4 +1,8 @@
 # Distributed Denial of Service
+```
+                 ,mmm^>
+   \|  ddos  __   W-W'  ___
+```
 The act of sending many requests to a service in order to deny legit traffic.
 You can use it to load test your webservers or simulate DDOS attacks for chaos testing and such.
 This tool is created as an experiment into concurrency with Go.
