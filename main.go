@@ -32,6 +32,11 @@ func init() {
   flag.StringVar(&url, "url", "http://localhost", "the url to ddos")
   flag.IntVar(&qty, "qty", 10, "how many requests to make")
   flag.BoolVar(&logging, "log", false, "set logging on/off")
+  banner := `
+                 ,mmm^>
+   \|  ddos  __   W-W'  ___
+  `
+  fmt.Println(banner)
 }
 
 func main() {
