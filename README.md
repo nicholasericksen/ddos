@@ -32,7 +32,7 @@ it to become unavailable to legitimate end users.
 
 In the CIA triangle of cybersecurity this impacts the "Availability" of the system. 
 
-[](https://en.wikipedia.org/wiki/Information_security)
+<https://en.wikipedia.org/wiki/Information_security>
 
 
 ## Mitigation
@@ -45,7 +45,7 @@ fault tolerance of the applications and services you provide.
 Try Cloudflare's free DDOS service which can be leveraged by using there DNS.
 Check out this article for more details below on the configuration:
 
-[](https://medium.com/@jellyland/setting-up-a-cloudflare-and-github-pages-website-with-a-namecheap-domain-d80b11636715)
+<https://medium.com/@jellyland/setting-up-a-cloudflare-and-github-pages-website-with-a-namecheap-domain-d80b11636715>
 
 
 ## Preview
