@@ -21,6 +21,33 @@ Administrator. It usually boils down to these three things:
 
 I accept no liability for your own actions. You have been warned.
 
+## Overview
+Denial of service attacks are simple excersises for most attackers who either can leverage 
+an off the shelf tool or create a simple script such as this one.
+The low barrier to entry is a reason it is still common, but it does require some resources 
+to execute effectively and therefore does come at a cost.
+
+The main idea of this attack vector is to send a large amount of requests at a service and cause
+it to become unavailable to legitimate end users.
+
+In the CIA triangle of cybersecurity this impacts the "Availability" of the system. 
+
+[](https://en.wikipedia.org/wiki/Information_security)
+
+
+## Mitigation
+Distributed denial of service is an attack vector that is hopefully becoming less relevant.
+Many cloud services offer services for free around mitigating denial of service attacks.
+This allows you to keep your service up and running at no additional cost!
+It is still important to make considerations in your infrastructure which contribute to the overall
+fault tolerance of the applications and services you provide.
+
+Try Cloudflare's free DDOS service which can be leveraged by using there DNS.
+Check out this article for more details below on the configuration:
+
+[](https://medium.com/@jellyland/setting-up-a-cloudflare-and-github-pages-website-with-a-namecheap-domain-d80b11636715)
+
+
 ## Preview
 Here I setup a local server with a basic HTML page using `python -m http.server`.
 After starting the server I immediately trigger the DDOS using this tool.
@@ -43,6 +70,7 @@ Then run the program with
 ```
 
 You can specify the quantity, logging mode for more details, and the url of the web service.
+
 
 ## Known Limitations
 * Currently this only supports making `GET` request to the specified URL.
